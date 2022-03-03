@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding:0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@@400;700&display=swap');
+
+body{
+    font-family: 'Montserrat' sans-serif;
+}
+
+.logo-header{
+    background-color: #FFC107;
+    text-align: center;
+    max-width: 1440px;
+}
+.img-header{
+    max-width: 324px;
+    height: 84px;
+}
+.menu{
+    background-color: #FFA000;
+    max-width: 1440px;
+    height: 48px;
+
+}
+.menu-item{
+    display:flex;
+    list-style-type: none;
+    justify-content: center;
+    padding-top: 12px;
+  }
+.menu-item-link{
+    color: #FDFDFD;
+    font-size: 20px;
+    margin: 10px 30px;
+    text-decoration: none;
+    font-weight: 700;
+}
+.primeira-imagem{
+    background-image: url(img-omma/image-prime.png);
+    background-repeat: no-repeat;
+    max-width: 1440px;
+    height: 638px;
+    background-position: center center fixed;
+    background-size: cover;
+}
+.titulo{
+    font-size: 70px;
+    line-height: 85px;
+    color:#FFFFFF;
+    padding-top: 166px;
+    padding-left: 969px;
+    padding-right: 101px;
+}
+
+.subtitle{
+    color:#FFA000;
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 67px;
+    text-align: center;
+    text-transform: lowercase;
+    margin: 50px 0px 50px 0px;
+}
+.images-subtitle{
+    max-width: 345px;
+    height: 342px;
+}
+.lista-receitas{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.lista{
+    text-align: center;
+    list-style-type: none;
+    align-content: space-evenly;
+}
+.container-figuras{
+    display:flex;
+    flex-direction: column;
+}
+
+.nomes-legendas-imagens{
+    font-size: 26px;
+    line-height: 50px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #000000;
+    padding: 20px;
+}
+.texto-link-container-figuras{
+    text-decoration: none;
+    color:#FFFFFF;
+    background-color: #176902;
+    padding: 5px 33px;
+    font-size: 24px;
+    line-height: 29px;
+
+}
+.about-us{
+    background-image: url(img-omma/image_about.png);
+    max-width: 1440px;
+    height: 649px;
+    background-repeat: no-repeat;
+    padding: 123px 0px;
+    background-position: center center fixed;
+    background-size: cover;
+    margin-top: 160px;
+}
+
+.title-about-us{
+    font-size: 65px;
+    line-height: 79px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-top: 73px;
+    padding-left: 123px;
+}
+.text-about-us{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-top: 73px;
+    padding-left: 123px;
+    padding-right: 800px;
+
+    }
+.rodape{ 
+    background-color:#FFC107;
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+}
+.logo-rodape{
+    max-width: 324px;
+    height: 84px;
+}

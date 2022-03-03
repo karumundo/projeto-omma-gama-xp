@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@@400;700&display=swap');
+
+body{
+    font-family: 'Montserrat' sans-serif;
+}
+
+.logo-header{
+    background-color: #FFC107;
+    text-align: center;
+    max-width: 1440px;
+}
+.img-header{
+    max-width: 324px;
+    height: 84px;
+}
+.menu{
+    background-color: #FFA000;
+    max-width: 1440px;
+    padding: 12px 0px;
+}
+.menu-item{
+    display:flex;
+    list-style-type: none;
+    justify-content: center;
+}
+.menu-item-link{
+    color: #FDFDFD;
+    font-size: 20px;
+    margin: 10px 30px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.lista{
+    text-align: center;
+    list-style-type: none;
+}
+.container-figuras{
+    display:flex;
+    flex-direction: column;
+}
+.images-subtitle{
+    max-width: 345px;
+    height: 342px;}
+    
+.nomes-legendas-imagens{
+    font-size: 26px;
+    line-height: 50px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #000000;
+    padding: 20px;
+}
+.texto-link-container-figuras{
+    text-decoration: none;
+    display:inline-block;
+    color:#FFFFFF;
+    background-color: #176902;
+    font-size: 24px;
+    line-height: 29px;
+    padding: 5px 33px;
+    margin-bottom: 110px;
+}
+.rodape{ 
+    background-color:#FFC107;
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+}
+.logo-rodape{
+    max-width: 324px;
+    height: 84px;
+}

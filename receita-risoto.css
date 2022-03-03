@@ -1,0 +1,38 @@
+.flex-main{
+    display: flex;
+    margin-left: 70px;
+}
+
+.figura-receita{ 
+    width: 592px;
+    height: 311px;
+}
+
+.title{
+    font-size: 50px;
+    line-height: 70px;
+    color:#FFA000;
+    display: inline-block;
+    margin-top: 90px;
+    font-weight: bold;
+}
+.ingredientes{
+    list-style-type: none;
+}
+.titulo-ingredientes{
+
+}
+aside{
+    margin-left: 187px;
+
+}
+.preparo{
+    max-width: 580px;
+}
+.title-aside{
+    font-size: 30px;
+    line-height: 36px;
+    color:#FFA000;
+
+
+}
